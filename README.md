@@ -23,6 +23,9 @@ Python, Pandas, and Jupyter notebooks were used to extract and transform the bac
 * The "email" string value is extracted without extra characters. 
 * A DataFrame is created with the following columns: "backer_id", "cf_id", "name", and "email" and each column in the DataFrame contains the appropriate data. 
 
+<img width="500" alt="Deliv1DF" src="https://user-images.githubusercontent.com/114960958/226147647-3f71c32a-9d63-4a8d-becb-2a0af9c1678c.png">
+
+
 ### Deliverable 2: Transform and Clean Data
 * The "cf_id" column is converted to int64.
 * The "name" column is split into "first_name" and "last_name" columns that are added to the DataFrame. 
