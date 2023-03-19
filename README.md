@@ -15,7 +15,6 @@ Using the analysis performed with the Crowdfunding ETL project and SQL data anal
 Python, Pandas, and Jupyter notebooks were used to extract and transform the backers’ contact information from a CSV file to create a DataFrame that will be exported as a CSV file. In the load phase, the dataset was used to create an ERD and a table schema to create a new table in the crowdfunding_db database. The CSV file that contains the backers’ information into this table was uploaded into this table. And finally, data analysis was performed on the crowdfunding_db database by using SQL queries.
 
 ## Deliverables
-![crowdfunding_db_relationships](https://user-images.githubusercontent.com/114960958/226147573-f4f77736-facd-405a-b835-9bf491ad59e8.png)
 
 ### Deliverable 1: Extract Data (35 pts)
 * The alphanumeric "backer_id" string identification number is extracted without extra characters.
@@ -35,6 +34,10 @@ Python, Pandas, and Jupyter notebooks were used to extract and transform the bac
 * The crowdfunding_db relationship diagram has five tables, and the diagram is saved as crowdfunding_db_relationships.png.
 * The crowdfunding_db_schema.sql file contains the table schema and the ALTER TABLE statement for each of the five tables. 
 * The backers.csv file is imported into the backers table without any errors. 
+
+![crowdfunding_db_relationships](https://user-images.githubusercontent.com/114960958/226147573-f4f77736-facd-405a-b835-9bf491ad59e8.png)
+
+![crowdfunding_db_schema](https://user-images.githubusercontent.com/114960958/226147605-17ee6921-1ce4-4062-b62c-2e3790f8a733.png)
 
 ### Deliverable 4: SQL Analysis (15 pts)
 * A SQL query is written and successfully executed that retrieves the number of backer_counts in descending order for each cf_id and for all the live campaigns. 
