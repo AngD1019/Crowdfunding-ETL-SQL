@@ -33,6 +33,9 @@ Python, Pandas, and Jupyter notebooks were used to extract and transform the bac
 * The columns are reordered. 
 * The DataFrame is exported as backers.csv. 
 
+<img width="565" alt="Deliv2DF" src="https://user-images.githubusercontent.com/114960958/226147725-57f4b357-27e6-4d38-b313-977ecb62bf98.png">
+
+
 ### Deliverable 3: Create an ERD and a Table Schema and Load the Data
 * The crowdfunding_db relationship diagram has five tables, and the diagram is saved as crowdfunding_db_relationships.png.
 * The crowdfunding_db_schema.sql file contains the table schema and the ALTER TABLE statement for each of the five tables. 
