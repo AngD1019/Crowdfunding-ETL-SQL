@@ -15,6 +15,7 @@ Using the analysis performed with the Crowdfunding ETL project and SQL data anal
 Python, Pandas, and Jupyter notebooks were used to extract and transform the backers’ contact information from a CSV file to create a DataFrame that will be exported as a CSV file. In the load phase, the dataset was used to create an ERD and a table schema to create a new table in the crowdfunding_db database. The CSV file that contains the backers’ information into this table was uploaded into this table. And finally, data analysis was performed on the crowdfunding_db database by using SQL queries.
 
 ## Deliverables
+![crowdfunding_db_relationships](https://user-images.githubusercontent.com/114960958/226147573-f4f77736-facd-405a-b835-9bf491ad59e8.png)
 
 ### Deliverable 1: Extract Data (35 pts)
 * The alphanumeric "backer_id" string identification number is extracted without extra characters.
