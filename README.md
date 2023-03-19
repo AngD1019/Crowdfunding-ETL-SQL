@@ -16,7 +16,7 @@ Python, Pandas, and Jupyter notebooks were used to extract and transform the bac
 
 ## Deliverables
 
-### Deliverable 1: Extract Data (35 pts)
+### Deliverable 1: Extract Data 
 * The alphanumeric "backer_id" string identification number is extracted without extra characters.
 * The numeric "cf_id" string identification number is extracted without extra characters. 
 * The "name" string value is extracted without extra characters. 
@@ -45,8 +45,9 @@ Python, Pandas, and Jupyter notebooks were used to extract and transform the bac
 
 ![crowdfunding_db_schema](https://user-images.githubusercontent.com/114960958/226147605-17ee6921-1ce4-4062-b62c-2e3790f8a733.png)
 
-### Deliverable 4: SQL Analysis (15 pts)
+### Deliverable 4: SQL Analysis 
 * A SQL query is written and successfully executed that retrieves the number of backer_counts in descending order for each cf_id and for all the live campaigns. 
 * A SQL query is written and successfully executed that retrieves the number of backers in descending order for each cf_id from the backers table. 
 * A SQL query is written and successfully executed to create the email_contacts_remaining_goal_amount table, and the table is exported as email_contacts_remaining_goal_amount.csv. 
-* A SQL query is written and successfully executed to create the email_backers_remaining_goal_amount table, and the table is exported as email_contacts_remaining_goal_amount.csv. 
+
+<img width="721" alt="Deliv4_table" src="https://user-images.githubusercontent.com/114960958/226148137-efdcd0b2-2371-4363-82d7-c35b5a8aa40c.png">
